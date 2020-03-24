@@ -16,10 +16,10 @@
 
 - 社會變遷碼是參照行政院主計處「中華民國職業標準分類」改的，大類一樣。
 - 主要要大類
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a2b6d36f-ae0d-4ded-9d59-9451121ab9d4/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a2b6d36f-ae0d-4ded-9d59-9451121ab9d4/Untitled.png)
+    ![](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a2b6d36f-ae0d-4ded-9d59-9451121ab9d4/Untitled.png)
 
 - 社會變遷碼對照表
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c3f02e17-f9f6-4998-98da-190e89e50b02/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c3f02e17-f9f6-4998-98da-190e89e50b02/Untitled.png)
+    ![](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c3f02e17-f9f6-4998-98da-190e89e50b02/Untitled.png)
 
 ### 主要資料
 
@@ -40,7 +40,7 @@
 - 全名 「中華民國行業標準分類」，為行政院主計處管理。
 - 最新版本 2016 年 1月
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/169f0dfa-5626-49ed-a3e0-b7cd076456e9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/169f0dfa-5626-49ed-a3e0-b7cd076456e9/Untitled.png)
+![](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/169f0dfa-5626-49ed-a3e0-b7cd076456e9/Untitled.png)
 
 ### 主要資料
 
@@ -113,7 +113,7 @@
 
 ## 整體流程
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/06cb84de-92e7-4aa0-8d05-8a4cd3a24e57/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/06cb84de-92e7-4aa0-8d05-8a4cd3a24e57/Untitled.png)
+![](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/06cb84de-92e7-4aa0-8d05-8a4cd3a24e57/Untitled.png)
 
 # 二、資料介紹
 
@@ -150,12 +150,6 @@
     - 管理員工數
     - 是老闆還是員工？
     - 管理員工與否
-
-## 補充:  Edge-list VS. adjacency-list
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c630c219-6e22-4367-95a5-9d1edfe04d16/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c630c219-6e22-4367-95a5-9d1edfe04d16/Untitled.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/779545ba-d08c-48d2-b807-1cdabe6b8223/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/779545ba-d08c-48d2-b807-1cdabe6b8223/Untitled.png)
 
 # 三、資料清整
 
