@@ -1,4 +1,4 @@
-# 行職業文字轉 ISCO 編碼
+# 處理問卷題目行職業文字推薦對應 ISCO 編碼
 
 > 因為限制的關係不提供原始資料。
 
@@ -19,52 +19,28 @@
 - 社會變遷碼對照表
     ![](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c3f02e17-f9f6-4998-98da-190e89e50b02/Untitled.png)
 
-### 主要資料
+### 相關資料
+- [第6次修訂(99年5月)](https://www.dgbas.gov.tw/ct.asp?xItem=26132&ctNode=3112&mp=1)
+- [各職業分類標準說明檔](https://www.dgbas.gov.tw/public/Attachment/141413555071.pdf)
+- [淺談社會變遷的職業編碼與社經地位分數](https://wcstatistics.blogspot.com/2018/11/blog-post_19.html)
 
-[第6次修訂(99年5月)](https://www.dgbas.gov.tw/ct.asp?xItem=26132&ctNode=3112&mp=1)
-
-### 各職業分類標準說明檔
-
-[](https://www.dgbas.gov.tw/public/Attachment/141413555071.pdf)
-
-### 其他介紹
-
-[淺談社會變遷的職業編碼與社經地位分數](https://wcstatistics.blogspot.com/2018/11/blog-post_19.html)
-
----
 
 ### 2. 行業碼
 
 - 全名 「中華民國行業標準分類」，為行政院主計處管理。
 - 最新版本 2016 年 1月
 
-![](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/169f0dfa-5626-49ed-a3e0-b7cd076456e9/Untitled.png)
-
-### 主要資料
-
-[中華民國行業標準分類](https://www.dgbas.gov.tw/lp.asp?CtNode=3111&CtUnit=566&BaseDSD=7&mp=1)
-
-### 各類說明
-
-[](https://www.dgbas.gov.tw/public/Attachment/51230162221KI9NIEKP.pdf)
-
----
+### 相關資料
+- [中華民國行業標準分類](https://www.dgbas.gov.tw/lp.asp?CtNode=3111&CtUnit=566&BaseDSD=7&mp=1)
+- [各類說明](https://www.dgbas.gov.tw/public/Attachment/51230162221KI9NIEKP.pdf)
 
 ### 3. ISCO-88 & ISCO-88
 
 - 兩者皆為四碼，前後變化不大
 
-### 主要資料
-
-[](http://www.zonta.org.tw/download/0809-0205-ZI%20Occupations.pdf)
-
-### ISCO 協會
-
-[ISCO - International Standard Classification of Occupations](https://www.ilo.org/public/english/bureau/stat/isco/isco08/)
-
-### 對照表
-
-[corrtab88-08.xls](https://drive.google.com/a/gm.scu.edu.tw/file/d/18zqE891ruLopoB84b3WFEQQ0QWYe8L31/view?usp=drivesdk)
+### 相關資料
+- [主要資料](http://www.zonta.org.tw/download/0809-0205-ZI%20Occupations.pdf)
+- [ISCO - International Standard Classification of Occupations](https://www.ilo.org/public/english/bureau/stat/isco/isco08/)
 
 ## 主要問題
 
@@ -111,7 +87,7 @@
 
 ## 整體流程
 
-![](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/06cb84de-92e7-4aa0-8d05-8a4cd3a24e57/Untitled.png)
+![](img/流程圖.png)
 
 # 二、資料介紹
 
@@ -157,8 +133,6 @@
 
 ## Step1: 資料轉換 SAV → CSV
 
----
-
 ### 程式碼
 
 `**1_SAVtoCSV.py**`
@@ -181,7 +155,6 @@
 
 ## Step2: 合併 label 檔
 
----
 
 ### 程式碼
 
@@ -211,8 +184,6 @@
 - `*output/3_all_label_match_result.csv*`
 
 ## Step4: 標記各問卷的對象和時間點
-
----
 
 ### 程式碼
 
